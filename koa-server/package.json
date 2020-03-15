@@ -1,0 +1,32 @@
+{
+  "name": "koa-serve2",
+  "version": "1.0.0",
+  "description": "<!--\r  * @Description:\r  * @Author: TangJian\r  * @Date: 2020-02-22 19:37:14\r  -->",
+  "main": "app.mjs",
+  "scripts": {
+    "dev": "nodemon app.js --experimental-modules ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/joi": "^17.1.0",
+    "@koa/router": "^8.0.8",
+    "axios": "^0.19.2",
+    "basic-auth": "^2.0.1",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^8.5.1",
+    "koa": "^2.11.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-static": "^5.0.0",
+    "lodash": "^4.17.15",
+    "mysql2": "^2.1.0",
+    "require-directory": "^2.1.1",
+    "sequelize": "^5.21.4",
+    "validator": "^12.2.0"
+  },
+  "config": {
+    "env": "production"
+  }
+}
